@@ -5,6 +5,7 @@ import About from "./routes/About";
 import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import Sign from "./routes/Sign";
+import Log from './routes/Log';
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/service" element={<Service />}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/signup" element={<Sign />}/>
+        <Route path="/login" element={<Log />}/>
       </Routes>
       
     </div>
